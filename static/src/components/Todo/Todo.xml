@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates>
+    <t t-name="owl.Todo" owl="1">
+        <p t-attf-class="#{props.todo.done? 'text-muted text-decoration-line-through':' ' }"><span t-esc="props.todo.id"/> . <span t-esc="props.todo.description" /></p>
+    </t>
+</templates>

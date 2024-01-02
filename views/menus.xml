@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <!-- Top Menu -->
+        <menuitem id="owl_scratch_root" name="OScratch"/>
+
+        <!-- actions -->
+        <menuitem name="Counter" id="owl_scratch_menu" parent="owl_scratch_root"
+                  action="action_owl_scratch"/>
+
+    </data>
+</odoo>
